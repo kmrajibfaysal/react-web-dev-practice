@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Practice from './Practice';
+import ExternalUsers from './ExternalUsers';
+import './index.css';
 
 ReactDOM.render(
     <React.StrictMode>
-        <Practice />
+        <ExternalUsers />
     </React.StrictMode>,
     document.getElementById('root')
 );
